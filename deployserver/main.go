@@ -18,6 +18,7 @@ func reLauch()  {
 
 func firstPage(w http.ResponseWriter, r *http.Request) {
   io.WriteString(w, "<h1> Hello, this is my deploy page!</h1>")
+  reLauch()
 }
 
 func main() {
